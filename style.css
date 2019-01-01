@@ -17,7 +17,7 @@ img {
 	color: black;
 }
 #home {
-	background: url('Bhaelar.github.io/img/blank.jpg') center center no-repeat;
+	background: url('img/blank.jpg') center center no-repeat;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -35,7 +35,7 @@ img {
 #home-caption h2 {
 	font-size: 3.8rem;
 	
-	font-weight: 200;
+	font-weight: 250;
 }
 
 .card-heading {
