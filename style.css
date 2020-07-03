@@ -76,14 +76,7 @@ img {
 #about {
 	padding-bottom: 50px;
 }
-#about img {
-    border-radius: 50%;
-    margin: 50px auto;
-    max-width: 80%;
-    height: auto;
-    width: 250px;
-    display:block;
-}
+
 #about p {
 	text-align: center;
 	font-size: 1.75rem;
@@ -110,4 +103,28 @@ img {
 	content: "";
 	color: black;
     
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 4rem;
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+	height: 50rem;
+	width: 100%;
+}
+
+.img-div {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: contain;
+	width: 60%;
+	height: 100%;
 }
