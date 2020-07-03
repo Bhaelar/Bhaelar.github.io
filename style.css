@@ -1,0 +1,130 @@
+html, body {
+	height: 100%;
+}
+img {
+	max-width: 100%;
+}
+
+#navbarTogglerDemo02 li {
+	font-size: 1.6rem;
+	color: black;
+}
+
+.nav-link {
+	font-family: Palatino;
+}
+.nav-link:hover {
+	color: black;
+}
+#home {
+	background: url('img/blank.jpg') center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+#home-caption {
+	font-size: 1.6rem;
+	font-weight: 200;
+	max-width: 60rem;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+}
+#home-caption h2 {
+	font-size: 3.8rem;
+	
+	font-weight: 250;
+}
+
+.card-heading {
+	font-size: 2rem;
+}
+.card-img-top {
+	width: 100%;
+	height: 100%;
+}
+
+.card-body {
+	
+	padding: 20px;
+}
+
+#projects {
+	padding: 50px 0px;
+}
+.headings {
+	text-align: center;
+	font-weight: 400;
+	font-family: Palatino;
+}
+.headings:after {
+	content: " ";
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 70px;
+}
+
+.projects-p {
+	font-size: 1.8rem;
+	padding-top: 20px;
+	text-align: center;
+}
+#about {
+	padding-bottom: 50px;
+}
+
+#about p {
+	text-align: center;
+	font-size: 1.75rem;
+	padding: 0px 10px;
+}
+#contact p {
+	text-align: center;
+	font-size: 1.75rem;
+	margin: 50px 0px;
+	padding: 0px 10px;
+}
+.contact-links {
+	text-align: center;
+    padding-bottom: 100px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.contact:after {
+	
+    color: black;
+    
+}
+.contact5 {
+	content: "";
+	color: black;
+    
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+	margin-bottom: 4rem;
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+	height: 50rem;
+	width: 100%;
+}
+
+.img-div {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: contain;
+	width: 60%;
+	height: 100%;
+}
