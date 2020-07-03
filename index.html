@@ -120,7 +120,7 @@
 	            <div class="col-sm-4">
 	              <div class="card mb-4 box-shadow">
 	              <div class="card-img">
-	                <img class="card-img-top" src="Bhaelar.github.io/img/weather app 1.PNG" alt="weather app">
+	                <img class="card-img-top" src="./img/weather app 1.PNG" alt="weather app">
 	                </div>
 	                <div class="card-body">
 	                  <h2 class="card-heading">A Weather App</h2>
@@ -137,7 +137,7 @@
 	            <div class="col-sm-4">
 	              <div class="card mb-4 box-shadow">
 	              <div class="card-img">
-	                <img class="card-img-top" src="Bhaelar.github.io/img/wikipedia viewer 1.PNG" alt="wikipedia page viewer">
+	                <img class="card-img-top" src="./img/wikipedia viewer 1.PNG" alt="wikipedia page viewer">
 	                </div>
 	                <div class="card-body">
 	                  <h2 class="card-heading">A Wikipedia Page Viewer</h2>
@@ -151,10 +151,10 @@
 	                </div>
 	              </div>
 	            </div>
-		    <div class="col-sm-4">
+				<div class="col-sm-4">
 	              <div class="card mb-4 box-shadow">
 	              <div class="card-img">
-	                <img class="card-img-top" src="Bhaelar.github.io/img/yourTodoList app.png" alt="yourTodoList App">
+	                <img class="card-img-top" src="img\yourTodoList app.png" alt="yourTodoList App">
 	                </div>
 	                <div class="card-body">
 	                  <h2 class="card-heading">yourTodoList app</h2>
@@ -179,8 +179,41 @@
 	
 	<div id="about">
 		<h1 class="headings">ABOUT</h1>
-		<img src="img/basit.jpg" class="image" alt="Basit at his college's computer science department" title="Basit at his college's computer science department">
-		<p class="col-sm-10 offset-sm-1">I am a Computer Science major at the University Of Lagos. I am a web developer. When I'm not developing websites, I spend my time playing video games.</p>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+				<div class="img-div  container-fluid" style="background-image: url('./img/basit.jpg"></div>
+            </div>
+            <div class="carousel-item" >
+                <div class="img-div container-fluid"  style="background-image: url('./img/basit4.jpg"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="img-div container-fluid"  style="background-image: url('./img/basit5.jpg"></div>
+            </div>
+			<div class="carousel-item">
+                <div class="img-div container-fluid"  style="background-image: url('./img/basit2.jpg"></div>
+            </div>
+			<div class="carousel-item">
+                <div class="img-div container-fluid"  style="background-image: url('./img/basit3.jpg"></div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+		<p class="col-sm-10 offset-sm-1">I am a Computer Science major at the University Of Lagos. I am a web developer. When I'm not developing web apps, I spend my time playing video games.</p>
 	</div>
 	
 	<div id="contact">
