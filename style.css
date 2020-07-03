@@ -125,6 +125,13 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	object-fit: contain;
-	width: 90%;
+	width: 60%;
 	height: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.img-div {
+		width: 100%;
+	}
 }
