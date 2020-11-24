@@ -10152,3 +10152,7 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.card-img-top {
+  height: 150px;
+}
